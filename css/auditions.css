@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
-*{
-    font-family: 'Montserrat', sans-serif;
-    margin: 5px;
-}
+
+* {    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 .container{
     display: grid;
@@ -15,18 +17,14 @@
 nav{
     display: flex;
     padding: 0.5em;
-    justify-content: right;
+    justify-content: flex-end;
     background-color: navy;
     overflow: hidden;
-    height: 50px;
 }
 
 nav a {
-    float: right;
-    display: block;
     color: white;
     text-align: center;
-    margin-top: 5px;
     font-size: 20px;
     color: white;
     padding: 14px 16px;
@@ -41,6 +39,8 @@ nav a:hover {
 .image1{
     grid-row: 2/3;
     grid-column: 1/2;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .nav-logo img {
@@ -49,6 +49,8 @@ nav a:hover {
 }
 
 #auditionTitle{
+    font-weight: bold;
+    color: white;
     background-color: navy;
     text-align: center;
 }
