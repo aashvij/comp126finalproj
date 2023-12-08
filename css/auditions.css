@@ -1,24 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 
+<<<<<<< HEAD
 * {    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+=======
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> 40c35b55008cdbd3e3036958372bbf0f2fcd7b94
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 1fr 1fr 200px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     width: 100%;
     height: 100%;
+    padding: 1em;
 }
 
-nav{
+header {
+    width: 100%;
+}
+
+nav {
+    grid-row: 1/2;
+    grid-column: 1/3;
     display: flex;
     padding: 0.5em;
     justify-content: flex-end;
+<<<<<<< HEAD
     background-color: navy;
+=======
+    background-color: #272643;
+>>>>>>> 40c35b55008cdbd3e3036958372bbf0f2fcd7b94
     overflow: hidden;
 }
 
@@ -32,11 +52,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd; 
-    color: black; 
+    background-color: #ddd;
+    color: black;
 }
 
-.image1{
+.image1 {
     grid-row: 2/3;
     grid-column: 1/2;
     max-height: 100%;
@@ -44,13 +64,30 @@ nav a:hover {
 }
 
 .nav-logo img {
-    height: 40px; 
-    width: auto; 
+    height: 40px;
+    width: auto;
 }
 
+<<<<<<< HEAD
 #auditionTitle{
     font-weight: bold;
     color: white;
     background-color: navy;
+=======
+#auditionTitle {
+    font-weight: bold;
+    color: white;
+    background-color: #2c698d;
+>>>>>>> 40c35b55008cdbd3e3036958372bbf0f2fcd7b94
     text-align: center;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2c698d;
+}
+
+#requirements {
+    grid-column: 2/3;
 }
