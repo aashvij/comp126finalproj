@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap) ;
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+* {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 nav {
     display: flex;
@@ -124,6 +124,7 @@ button:hover {
     display: block;
     margin: 0 auto 20px auto;
     width: 120px;
+    /* Adjust as needed */
 }
 
 @media (max-width: 767px) {
@@ -136,5 +137,28 @@ button:hover {
     input[type="email"],
     input[type="number"] {
         width: 100%;
+        /* Full width on small screens */
     }
+}
+
+.thank-you-box {
+    text-align: center;
+    /* Center the text inside the box */
+    padding: 20px;
+    /* Add some padding */
+    margin-top: 20px;
+    /* Add margin above the box */
+    background-color: #e6f4f1;
+    /* Background color of the box */
+    border-radius: 8px;
+    /* Rounded corners for the box */
+}
+
+.thank-you-box h2 {
+    color: #333;
+    /* Color of the thank you text */
+    margin: 0;
+    /* Remove default margin */
+    font-size: 2em;
+    /* Larger font size for the thank you text */
 }
