@@ -31,7 +31,7 @@ svg{
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: navy;
+    background-color: #272643;
     overflow: hidden;
     padding: 0.5em;
   }
@@ -147,7 +147,7 @@ footer{
     nav {
         display: flex;
         justify-content: flex-end;
-        background-color: navy;
+        background-color: #272643;
         overflow: hidden;
         padding: 0.5em;
       }
@@ -247,7 +247,7 @@ footer{
     }
     footer{
         grid-row: 3/4;
-        background-color: navy;
+        background-color: #272643;
         color:white;
         text-align: center;
         margin: 0;
@@ -255,3 +255,8 @@ footer{
         padding: 45px;
     }
 }
+
+.nav-logo {
+    height: 60px; /* Adjust the height as needed */
+    margin-left: 0px; /* Adds some space between the logo and the nav items */
+  }
