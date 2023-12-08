@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 
-<<<<<<< HEAD
-* {    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-=======
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
->>>>>>> 40c35b55008cdbd3e3036958372bbf0f2fcd7b94
 
 .container {
     display: grid;
@@ -34,11 +26,7 @@ nav {
     display: flex;
     padding: 0.5em;
     justify-content: flex-end;
-<<<<<<< HEAD
-    background-color: navy;
-=======
     background-color: #272643;
->>>>>>> 40c35b55008cdbd3e3036958372bbf0f2fcd7b94
     overflow: hidden;
 }
 
