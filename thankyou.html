@@ -19,27 +19,27 @@
                 <a class="nav-button" href="auditions.html">Auditions</a>
             </nav>
         </header>
-              <form action="thankyou.html" method="post">
-                    <fieldset>
-                          <h4>Donation Form</h4>
-                          
-                          <label for="name">Name</label>
-                          <input type="text" id="name" name="user_name" placeholder="Your Name" required>
-                          
-                          <label for="email">Email</label>
-                          <input type="email" id="email" name="email" pattern=".+@.+"
+        <form action="thankyou.html" method="post">
+            <fieldset>
+                <h4>Donation Form</h4>
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" pattern=".+@.+"
                     title="Please include '@' in the email address" placeholder="email@domain.com" required>
-                          
-                          <label for="amount">Donation Amount</label>
-                          <input type="number" id="amount" name="amount" min="1" placeholder="Amount in USD" required>
-                          
-                          <label for="ccnum">Credit Card Number</label>
-                          <input type="text" id="ccnum" name="card_number" pattern="\d{16}"
+                
+                <label for="amount">Donation Amount</label>
+                <input type="number" id="amount" name="amount" min="1" placeholder="Amount in USD" required>
+                
+                <label for="ccnum">Credit Card Number</label>
+                <input type="text" id="ccnum" name="card_number" pattern="\d{16}"
                     title="Credit card number must be 16 digits" placeholder="1234 5678 9012 3456" required>
-                          
-                        </fieldset>
-                    <button type="submit">Submit</button>
-                  </form>
+                
+                </fieldset>
+            <button type="submit">Submit</button>
+            </form>
             <div class="thank-you-box">
                 <h2>Thank you for your donation! Feel free to donate again!</h2>
             </div>
