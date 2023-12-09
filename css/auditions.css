@@ -47,10 +47,14 @@ nav a:hover {
 .image1 {
     grid-row: 3/4;
     grid-column: 2/3;
+}
+
+.imagesizing{
     max-height: 100%;
     max-width: 100%;
     border-bottom: 1vh;
 }
+
 
 .nav-logo img {
     height: 40px;
