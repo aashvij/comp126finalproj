@@ -10,7 +10,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 200px 1fr 1fr 80px;
     min-height: 100%;
     width: 100%;
     padding: 1em;
@@ -45,10 +45,11 @@ nav a:hover {
 }
 
 .image1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
+    grid-row: 3/4;
+    grid-column: 2/3;
     max-height: 100%;
     max-width: 100%;
+    border-bottom: 1vh;
 }
 
 .nav-logo img {
@@ -71,20 +72,18 @@ h2 {
 
 #requirements {
     grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#video{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-main {
-    grid-row: 1 / -1; 
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 1em; 
-    
 }
 
 main > * {
@@ -118,6 +117,7 @@ footer {
 }
 
 .nav-logo {
+    justify-content: start;
     height: 60px; /* Adjust the height as needed */
     margin-left: 0px; /* Adds some space between the logo and the nav items */
   }
